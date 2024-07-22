@@ -14,3 +14,13 @@ Exemplo:1:Git
 Oque é programação orientada?
 Programação Orientada a Objetos é um paradigma de linguagem de programação que pode ser usado com várias linguagens, como Java, Python, C#, entre outras. Esse paradigma facilita muito o dia a dia de quem o utiliza.caracteristicas desse programação é que ele faça que o programador possa pensar em várias coisas de forma distintas
 
+HTTP é um protocolo (protocol) que permite a obtenção de recursos, como documentos HTML. É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web. Um documento completo é reconstruído a partir dos diferentes sub-documentos obtidos, como por exemplo texto, descrição do layout, imagens, vídeos, scripts e muito.
+REST é um estilo de arquitetura web muito importante no desenvolvimento e gerenciamento de sistemas na internet. Com esse recurso, tanto o servidor quanto os clientes têm acesso a um procedimento mais rápido e fácil de conduzir.A relação entre Web API e REST (Representational State Transfer) é que REST é um dos estilos arquitetônicos mais comuns para a construção de Web APIs. As APIs RESTful seguem princípios específicos que permitem uma comunicação eficiente e escalável entre cliente e servidor.
+
+1:get
+2:POST
+3:put
+4:patch
+5:DELETE
+6:HEAD
+7:OPTIONS
