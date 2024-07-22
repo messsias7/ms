@@ -11,3 +11,6 @@ Exemplo:1:Git
 2:Apache Subversion (SVN)
 3:Mercurial
 
+Oque é programação orientada?
+Programação Orientada a Objetos é um paradigma de linguagem de programação que pode ser usado com várias linguagens, como Java, Python, C#, entre outras. Esse paradigma facilita muito o dia a dia de quem o utiliza.caracteristicas desse programação é que ele faça que o programador possa pensar em várias coisas de forma distintas
+
