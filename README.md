@@ -23,4 +23,12 @@ REST é um estilo de arquitetura web muito importante no desenvolvimento e geren
 4:patch
 5:DELETE
 6:HEAD
-7:OPTIONS
+7:OPTIONS 
+
+Entity (Entidade): A camada de entidade representa os objetos do domínio do sistema, ou seja, os dados e seus atributos que são persistidos no banco de dados. Essas classes geralmente correspondem às tabelas do banco de dados e são mapeadas utilizando frameworks de ORM (Object-Relational Mapping). Elas contêm apenas os atributos e, ocasionalmente, algumas validações simples dos dados.
+
+Controller (Controlador): A camada de controlador é responsável por receber as requisições HTTP, processar os dados de entrada, chamar os serviços apropriados e devolver uma resposta adequada ao cliente. Os controladores atuam como intermediários entre as camadas de apresentação (interface do usuário) e a lógica de negócios, convertendo os dados de entrada em chamadas de métodos de serviço e formatando os resultados para a saída
+
+Repository (Repositório): A camada de repositório é responsável pela interação direta com o banco de dados. Ela abstrai os detalhes de acesso a dados, fornecendo métodos para realizar operações de CRUD (Create, Read, Update, Delete). Essa camada permite que a lógica de negócios e os controladores interajam com os dados de maneira mais abstrata e desacoplada dos detalhes do banco de dados subjacente.
+
+Service (Serviço): A camada de serviço contém a lógica de negócios da aplicação. Ela é responsável por orquestrar as operações, aplicar regras de negócio, validar dados e coordenar a interação entre a camada de repositório e a camada de controlador. Essa camada pode chamar múltiplos repositórios e outros serviços para realizar operações complexas, garantindo que todas as regras de negócio sejam aplicadas corretamente.
